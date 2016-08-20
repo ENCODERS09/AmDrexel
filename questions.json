@@ -1,0 +1,529 @@
+{
+  "module": [
+    {
+      "type": "Communication",
+      "questions": [
+        {
+          "Id": 1,
+          "Name": "Do you easily communicate expectations verbally to your management?",
+          "Answer":5
+        },
+        {
+          "Id": 2,
+          "Name": "Do you easily communicate expectations verbally to your co-workers?",
+          "Answer":5
+        },
+        {
+          "Id": 3,
+          "Name": "Do you prefer to communicate verbally to your team and management?",
+          "Answer":5
+        },
+        {
+          "Id": 4,
+          "Name": "I tend to say what I think, without worrying about how the other person perceives it. I assume that we'll be able to discuss it later.",
+          "Answer":5
+        },
+        {
+          "Id": 5,
+          "Name": "Do you feel comfortable asking for feedback?",
+          "Answer":5
+        },
+        {
+          "Id": 6,
+          "Name": "Do you feel comfortable communicating when you’re very busy and need assistance?",
+          "Answer":5
+        },
+        {
+          "Id": 7,
+          "Name": "Do you prefer to communicate writtenly to your team and management?",
+          "Answer":5
+        },
+        {
+          "Id": 8,
+          "Name": "Do you respond to emails within a day of receiving them?",
+          "Answer":5
+        },
+        {
+          "Id": 9,
+          "Name": "When I write a memo, email, or other document, I give all of the background information and detail I can to make sure that my message is understood.",
+          "Answer":5
+        },
+        {
+          "Id": 10,
+          "Name": "Before I send a message I think about the best way to communicate it to the audience.",
+          "Answer":5
+        },
+        {
+          "Id": 11,
+          "Name": "I try to help people understand the underlying concepts behind the point I am discussing. This reduces misconceptions and increases understanding of my message.",
+          "Answer":5
+        },
+        {
+          "Id": 12,
+          "Name": "Do you think your environment affects how you communicate in the workplace?",
+          "Answer":5
+        },
+        {
+          "Id": 13,
+          "Name": "Do you contact management verbally/written when you have questions?",
+          "Answer":5
+        },
+        {
+          "Id": 14,
+          "Name": "Do you contact your co-workers verbally/written when you have questions?",
+          "Answer":5
+        },
+        {
+          "Id": 15,
+          "Name": "If I don't understand something, I won't keep this to myself and figure it out later.",
+          "Answer":5
+        },
+        {
+          "Id": 16,
+          "Name": "If I am unsure about a given task, I find it comfortable to ask for help.",
+          "Answer":5
+        },
+        {
+          "Id": 17,
+          "Name": "I am not afraid to be direct with someone, even if they think I am being rude.",
+          "Answer":5
+        },
+        {
+          "Id": 18,
+          "Name": "Do you prepare and practice your presentations?",
+          "Answer":5
+        },
+        {
+          "Id": 19,
+          "Name": "Do you feel comfortable presenting without looking at slides?",
+          "Answer":5
+        },
+        {
+          "Id": 20,
+          "Name": "Do you agree that you can eloquently and clearly present your thoughts to upper management and co-workers?",
+          "Answer":5
+        }
+      ]
+    },
+    {
+      "type": "Adaptibility",
+      "questions": [
+        {
+          "Id": 1,
+          "Name": "Do you feel comfortable working in person with unfamiliar coworkers?",
+          "Answer":5
+        },
+        {
+          "Id": 2,
+          "Name": "Do you find it easy for you to experience a change in your workspace?",
+          "Answer":5
+        },
+        {
+          "Id": 3,
+          "Name": "Do you handle unexpected situations well ?",
+          "Answer":5
+        },
+        {
+          "Id": 4,
+          "Name": "I am never thrown off by tasks regarding subjects which I don't know.",
+          "Answer":5
+        },
+        {
+          "Id": 5,
+          "Name": "I enjoy unfamiliar situations.",
+          "Answer":5
+        },
+        {
+          "Id": 6,
+          "Name": "Do you feel comfortable working in person with unfamiliar coworkers?",
+          "Answer":5
+        },
+        {
+          "Id": 7,
+          "Name": "I do not experience an increase in stress levels when tasks begin to pile up",
+          "Answer":5
+        },
+        {
+          "Id": 8,
+          "Name": "I am easily able to seperate my personal life stress (family, relationships) from my work stresses (projects, deadlines) ",
+          "Answer":5
+        },
+        {
+          "Id": 9,
+          "Name": "I would prefer to work in a loud environment",
+          "Answer":5
+        },
+        {
+          "Id": 10,
+          "Name": "Unfamiliariies never create stress in the workplace for me ",
+          "Answer":5
+        },
+        {
+          "Id": 11,
+          "Name": "I would enjoy having a close relationship with my boss",
+          "Answer":5
+        },
+        {
+          "Id": 12,
+          "Name": "I would prefer to work in a fast paced environment",
+          "Answer":5
+        },
+        {
+          "Id": 13,
+          "Name": "I am very willing to learn new methods in the workplace ",
+          "Answer":5
+        },
+        {
+          "Id": 14,
+          "Name": "I am willing to take on tasks even if I have never done them ",
+          "Answer":5
+        },
+        {
+          "Id": 15,
+          "Name": "I am flexible in my working hours when deadlines become pressing ",
+          "Answer":5
+        },
+        {
+          "Id": 16,
+          "Name": "I would prefer to work in a private environment where others cannot see my screen ",
+          "Answer":5
+        },
+        {
+          "Id": 17,
+          "Name": "Having little to no power in the workplace is uncomfortable for me ",
+          "Answer":5
+        },
+        {
+          "Id": 18,
+          "Name": "My work does not affect my personal life ",
+          "Answer":5
+        },
+        {
+          "Id": 19,
+          "Name": "I am comforable with working from home when necessary",
+          "Answer":5
+        },
+        {
+          "Id": 20,
+          "Name": "I am able to handle crisis situaions without issue ",
+          "Answer":5
+        }
+      ]
+    },
+    {
+      "type": "Emotional Intelligence",
+      "questions": [
+        {
+          "Id": 1,
+          "Name": "If I mess up, I refrain from saying self-deprecating things, such as \"I am such a loser\", \"Stupid, stupid, stupid\", or \"I can't do anything right\".",
+          "Answer":5
+        },
+        {
+          "Id": 2,
+          "Name": "I do not get easily stressed out or agitated at work. ",
+          "Answer":5
+        },
+        {
+          "Id": 3,
+          "Name": "I remain civil to people even if I really dislike them.",
+          "Answer":5
+        },
+        {
+          "Id": 4,
+          "Name": "I can stay calm under pressure.",
+          "Answer":5
+        },
+        {
+          "Id": 5,
+          "Name": "I handle setbacks effectively.",
+          "Answer":5
+        },
+        {
+          "Id": 6,
+          "Name": "I can freely take responsibility for my mistakes.",
+          "Answer":5
+        },
+        {
+          "Id": 7,
+          "Name": "I utilize criticism and other feedback for growth.",
+          "Answer":5
+        },
+        {
+          "Id": 8,
+          "Name": "I remain positive in negative situations.",
+          "Answer":5
+        },
+        {
+          "Id": 9,
+          "Name": "I adjust my behavior depending on who I’m interacting with.",
+          "Answer":5
+        },
+        {
+          "Id": 10,
+          "Name": "I do not become defensive when criticized.",
+          "Answer":5
+        },
+        {
+          "Id": 11,
+          "Name": "I always feel comfortable asking for something that I want (e.g. a raise, more respect at the office, etc.).",
+          "Answer":5
+        },
+        {
+          "Id": 12,
+          "Name": "When I need to do something difficult or unpleasant, I find it easy to motivate myself to get started.",
+          "Answer":5
+        },
+        {
+          "Id": 13,
+          "Name": "If I'm not good at something right away, I'd rather spend more time working on it than quit.",
+          "Answer":5
+        },
+        {
+          "Id": 14,
+          "Name": "I feel like I live in the present moment (rather than just going through the motions of daily life...such as running on auto-pilot).",
+          "Answer":5
+        },
+        {
+          "Id": 15,
+          "Name": "I am satisfied with my work even if it goes unrecognized.",
+          "Answer":5
+        },
+        {
+          "Id": 16,
+          "Name": "I manage anxiety, stress, anger, and fear in pursuit of a goal.",
+          "Answer":5
+        },
+        {
+          "Id": 17,
+          "Name": "I can listen to others without jumping to judgment.",
+          "Answer":5
+        },
+        {
+          "Id": 18,
+          "Name": "My employer’s values coincide with my own.",
+          "Answer":5
+        },
+        {
+          "Id": 19,
+          "Name": "I tend to assume the best of people (rather than the worst). ",
+          "Answer":5
+        },
+        {
+          "Id": 20,
+          "Name": "I recognize how my behavior affects others around me.",
+          "Answer":5
+        }
+      ]
+    },
+    {
+      "type": "(Interpersonal",
+      "questions": [
+        {
+          "Id": 1,
+          "Name": "I agree that it is that I should possess/acquire interpersonal skills",
+          "Answer":5
+        },
+        {
+          "Id": 2,
+          "Name": "The clothes I wear would never offend another person.",
+          "Answer":5
+        },
+        {
+          "Id": 3,
+          "Name": "My hair is well groomed and my fingernails are clean and nicely trimmed.",
+          "Answer":5
+        },
+        {
+          "Id": 4,
+          "Name": "I display the same standards of behavior that I expect from other people.",
+          "Answer":5
+        },
+        {
+          "Id": 5,
+          "Name": "I wear the appropriate shoes to work.",
+          "Answer":5
+        },
+        {
+          "Id": 6,
+          "Name": "I say \"thank you\" to the people I work with.",
+          "Answer":5
+        },
+        {
+          "Id": 7,
+          "Name": "I think about how others perceive a problem or issue.",
+          "Answer":5
+        },
+        {
+          "Id": 8,
+          "Name": "I come into work with a positive attitude.",
+          "Answer":5
+        },
+        {
+          "Id": 9,
+          "Name": "I do not wear excessive perfume or colonge.",
+          "Answer":5
+        },
+        {
+          "Id": 10,
+          "Name": "When other people do something different from the way I would do it, I avoid being critical of them.",
+          "Answer":5
+        },
+        {
+          "Id": 11,
+          "Name": "I inject my own ideas into the mix rather than go alone with others’ decisions.",
+          "Answer":5
+        },
+        {
+          "Id": 12,
+          "Name": "If someone gives me a gift or does me a favor, I send them a thank you note.",
+          "Answer":5
+        },
+        {
+          "Id": 13,
+          "Name": "While actively talking with someone, I wait to compose my answer until they have finished speaking.",
+          "Answer":5
+        },
+        {
+          "Id": 14,
+          "Name": "People who know me would describe me as cheerful and friendly.",
+          "Answer":5
+        },
+        {
+          "Id": 15,
+          "Name": "i don’t speak first, and think later.",
+          "Answer":5
+        },
+        {
+          "Id": 16,
+          "Name": "I don’t get bored with conversations easily and perceive that most people have something interesting to say.",
+          "Answer":5
+        },
+        {
+          "Id": 17,
+          "Name": "I don’t interrupt the speaker if I disagree with a statement they have made.",
+          "Answer":5
+        },
+        {
+          "Id": 18,
+          "Name": "I ask for help when I do not know how to do something.",
+          "Answer":5
+        },
+        {
+          "Id": 19,
+          "Name": "I am not under the influence of drugs or alcohol when I am at work.",
+          "Answer":5
+        },
+        {
+          "Id": 20,
+          "Name": "I am accepting and open to others’ differences (in gender, culture, beliefs, etc.)",
+          "Answer":5
+        }
+      ]
+    },
+    {
+      "type": "Work Ethic",
+      "questions": [
+        {
+          "Id": 1,
+          "Name": "The success of the business is important to you.",
+          "Answer":5
+        },
+        {
+          "Id": 2,
+          "Name": "There are no negative implications to the decisions you make at work.",
+          "Answer":5
+        },
+        {
+          "Id": 3,
+          "Name": "You try to go beyond the scope of the work you have to do.",
+          "Answer":5
+        },
+        {
+          "Id": 4,
+          "Name": "Your paycheck is not the only motivation you have for working at Verve.",
+          "Answer":5
+        },
+        {
+          "Id": 5,
+          "Name": "You believe that you can thrive and grow professionally by working at Verve.",
+          "Answer":5
+        },
+        {
+          "Id": 6,
+          "Name": "You have a positive attitude while working at Verve.",
+          "Answer":5
+        },
+        {
+          "Id": 7,
+          "Name": "You feel determined to finish your work on time.",
+          "Answer":5
+        },
+        {
+          "Id": 8,
+          "Name": "You avoid being idle and wasting time at work.",
+          "Answer":5
+        },
+        {
+          "Id": 9,
+          "Name": "You share credit for other people’s contributions on projects.",
+          "Answer":5
+        },
+        {
+          "Id": 10,
+          "Name": "You try to be as accurate as you can when doing your job.",
+          "Answer":5
+        },
+        {
+          "Id": 11,
+          "Name": "You follow the directions you are given on a project.",
+          "Answer":5
+        },
+        {
+          "Id": 12,
+          "Name": "You tell management about what issues you are having.",
+          "Answer":5
+        },
+        {
+          "Id": 13,
+          "Name": "You feel accountable for the results of your work.",
+          "Answer":5
+        },
+        {
+          "Id": 14,
+          "Name": "You communicate honestly to your peers and managers.",
+          "Answer":5
+        },
+        {
+          "Id": 15,
+          "Name": "You have the company’s best interest in mind while making decisions.",
+          "Answer":5
+        },
+        {
+          "Id": 16,
+          "Name": "You trust the people you work with at Verve.",
+          "Answer":5
+        },
+        {
+          "Id": 17,
+          "Name": "You think that people at Verve trust you.",
+          "Answer":5
+        },
+        {
+          "Id": 18,
+          "Name": "People can depend on you when they need help.",
+          "Answer":5
+        },
+        {
+          "Id": 19,
+          "Name": "You follow Verve regulations.",
+          "Answer":5
+        },
+        {
+          "Id": 20,
+          "Name": "You are transparent about about the decisions you make while working.",
+          "Answer":5
+        }
+      ]
+    }
+  ]
+}

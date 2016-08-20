@@ -1,0 +1,57 @@
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#adminPanel" ng-click="fetchData()">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#individualRecords">Individual Records</a></li>
+            <li><a href="#completeRecords">Complete Records</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-0 col-md-8 col-md-offset-1 main">
+          <h1 class="page-header">Dashboard</h1>
+
+          <div class="row placeholders">
+			 <h2 class="sub-header">COLLECTIVE SURVEY REPORT of {{count}} <span ng-show="count==1">Employee</span><span ng-show="count>=2">Employees</span></h2>
+          </div>
+
+         
+          
+		<div class="row">
+			<div class="col-xs-10 col-sm-5 col-md-4 col-md-offset-2">
+				<canvas id="myChart1" width="100" height="100"></canvas>
+			</div>
+			<div class="col-xs-10 col-sm-5 col-md-4">
+				<canvas id="myChart2" width="100" height="100"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-10 col-sm-5 col-md-4">
+				<canvas id="myChart3" width="100" height="100"></canvas>
+			</div>
+			<div class="col-xs-10 col-sm-5 col-md-4">
+				<canvas id="myChart4" width="100" height="100"></canvas>
+			</div>
+			<div class="col-xs-10 col-sm-5 col-md-4">
+				<canvas id="myChart5" width="100" height="100"></canvas>
+			</div>
+		</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+<style>
+	body{
+		background: black !important;
+		color: white !important;
+	}
+	.page-header{
+		background: white !important;
+		border-radius: 5px;
+	}
+	.sidebar{
+		border-radius: 5px;
+	}
+</style>
+<link href="css/dashboard.css" rel="stylesheet">

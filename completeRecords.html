@@ -1,0 +1,60 @@
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="#adminPanel">Overview</a></li>
+            <li><a href="#individualRecords">Individual Records</a></li>
+            <li class="active"><a href="#completeRecords">Complete Records<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-0 col-md-8 col-md-offset-1 main">
+          <h1 class="page-header">Dashboard</h1>
+
+				<h2 class="sub-header">Complete Records</h2>
+		          <div class="table-responsive">
+		            <table class="table table-striped">
+		              <thead>
+		                <tr>
+		                  <th>User ID</th>
+		                  <th>Total Score</th>
+		                  <th>Communication</th>
+		                  <th>Adaptability</th>
+		                  <th>Emotional Intelligence</th>
+		                  <th>Interpersonal Skills</th>
+		                  <th>Work Ethics</th>
+		                </tr>
+		              </thead>
+		              <tbody>
+		                <tr ng-repeat="record in records">
+		                  <td>{{record[0]}}</td>
+		                  <td>{{record[1]}}</td>
+		                  <td>{{record[2]}}</td>
+		                  <td>{{record[3]}}</td>
+		                  <td>{{record[4]}}</td>
+		                  <td>{{record[5]}}</td>
+		                  <td>{{record[6]}}</td>
+		                </tr>
+		              </tbody>
+		            </table>
+		          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+<style>
+	body{
+		background: white !important;
+		color: black !important;
+	}
+	.page-header{
+		background: black !important;
+		color: white !important;
+		border-radius: 5px;
+	}
+	.sidebar{
+		border-radius: 5px;
+	}
+</style>
+<link href="css/dashboard.css" rel="stylesheet">

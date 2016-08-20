@@ -1,0 +1,154 @@
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="#adminPanel">Overview</a></li>
+            <li class="active"><a href="#individualRecords">Individual Records <span class="sr-only">(current)</span></a></li>
+            <li><a href="#completeRecords">Complete Records</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-0 col-md-8 col-md-offset-1 main">
+          <h1 class="page-header">Dashboard</h1>
+		<hr>
+         
+         <div class="row">
+		  <div class="col-lg-6 col-lg-offset-3">
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="Search by name" ng-model="searchTerm">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" type="button" ng-click="fetchIndividualUserData()">Go!</button>
+		      </span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+
+		<hr>
+
+		<span ng-hide="found">No Records Found.</span>
+
+		<div ng-show="found">
+			<h2 class="sub-header">Complete Records</h2>
+		          <div class="table-responsive">
+		            <table class="table table-striped">
+		              <tbody>
+		                <tr>
+		                  <td>User ID</td>
+		                  <td>{{record[0]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Total Score</td>
+		                  <td>{{record[1]}}</td>
+		                </tr>
+		                <tr>
+		                	<td><b>SECTIONS</b></td>
+		                	<td><b>SCORE<b></td>
+		                </tr>
+		                 <tr>
+		                  <td>Communication</td>
+		                  <td>{{record[2]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Adaptability</td>
+		                  <td>{{record[3]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Emotional Intelligence</td>
+		                  <td>{{record[4]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Interpersonal Skills</td>
+		                  <td>{{record[5]}}</td>
+		                </tr>
+		                <tr>
+		                  <td>Work Ethics</td>
+		                  <td>{{record[6]}}</td>
+		                </tr>
+		                <tr>
+		                	<td><b>SUB SECTIONS</b></td>
+		                	<td><b>SCORE<b></td>
+		                </tr>
+		                <tr>
+		                  <td>Verbal</td>
+		                  <td>{{record[7]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Written</td>
+		                  <td>{{record[8]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Verbal &amp Written</td>
+		                  <td>{{record[9]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Presentation</td>
+		                  <td>{{record[10]}}</td>
+		                </tr>
+		                <tr>
+		                  <td>Adaptability</td>
+		                  <td>{{record[11]}}</td>
+		                </tr>
+		                <tr>
+		                  <td>Stress</td>
+		                  <td>{{record[12]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Self Awareness</td>
+		                  <td>{{record[13]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Social Skills</td>
+		                  <td>{{record[14]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Motivation</td>
+		                  <td>{{record[15]}}</td>
+		                </tr>
+		                <tr>
+		                  <td>Empathy</td>
+		                  <td>{{record[16]}}</td>
+		                </tr>
+		                <tr>
+		                  <td>Workplace Attire</td>
+		                  <td>{{record[17]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Workplace Ettiquette</td>
+		                  <td>{{record[18]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Initiative</td>
+		                  <td>{{record[19]}}</td>
+		                </tr>
+		                 <tr>
+		                  <td>Accountability</td>
+		                  <td>{{record[20]}}</td>
+		                </tr>
+		                <tr>
+		                  <td>Trustworthiness</td>
+		                  <td>{{record[21]}}</td>
+		                </tr>		              
+		              </tbody>
+		            </table>
+		          </div>
+		</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+<style>
+	body{
+		background: white !important;
+		color: black !important;
+	}
+	.page-header{
+		background: black !important;
+		color: white !important;
+		border-radius: 5px;
+	}
+	.sidebar{
+		border-radius: 5px;
+	}
+</style>
+<link href="css/dashboard.css" rel="stylesheet">

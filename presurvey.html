@@ -1,0 +1,79 @@
+<span class="col-md-2">
+	<img src="images/VerveSystems.png">
+</span>
+<header class="row">
+	<div class="text-center col-md-8 div-style">
+		<h1>Pre–Survey</h1>
+	</div>
+</header>
+
+<div class="row">
+	<p class="text-center col-md-8 col-md-offset-2 div-style content-style">Please define the following soft skills in your own words in addition to rating your comfort level with each one on a scale of 1 to 10 with 10 being most comfortable</p> 
+</div>
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 div-style">
+		<span class="content-style">Communication: </span><textarea class="form-control" rows="3" ng-model="presurvey.com"></textarea>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 div-style">
+		<span class="content-style">Adaptability: </span><textarea class="form-control" rows="3" ng-model="presurvey.ada"></textarea>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 div-style">
+		<span class="content-style">Emotional Intelligence: </span><textarea class="form-control" rows="3" ng-model="presurvey.emo"></textarea>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 div-style">
+		<span class="content-style">Interpersonal Skills: </span><textarea class="form-control" rows="3" ng-model="presurvey.inter"></textarea>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 div-style">
+		<span class="content-style">Work Ethics: </span><textarea class="form-control" rows="3" ng-model="presurvey.wor"></textarea>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="text-center">
+		<a class="btn btn-primary btn-lg" ng-click="logout()">Exit</a>
+		<a class="btn btn-primary btn-lg" ng-click="addpresurvey()">Next</a>
+	</div>
+</div>
+
+<style>
+	body{
+		background:white !important;
+	}
+	p{
+		text-align: justify;
+	}
+	.div-style{
+		border-radius: 25px;
+	}
+	.content-style{
+		color: black;
+		font-size: 15px;
+	}
+	div{
+		padding: 5px;
+		letter-spacing: 0.2em;
+
+	}
+	header{
+		padding: 3%;
+		padding-bottom: 5px;
+		padding-top: 10%;
+		color: black;
+	} 
+	textarea{
+		border: 5px solid !important;
+	}
+	.navbar-text{
+		color: black !important;
+	}
+</style>

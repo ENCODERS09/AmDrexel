@@ -1,0 +1,189 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.10
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Aug 19, 2016 at 11:48 PM
+-- Server version: 5.5.42
+-- PHP Version: 7.0.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `user_auth`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `userId` int(11) NOT NULL,
+  `email` text NOT NULL,
+  `password` text NOT NULL,
+  `token` text NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`userId`, `email`, `password`, `token`) VALUES
+(1, 'admin', 'admin@vervesys', 'LOGGED OUT'),
+(2, 'ceo', 'ceo@vervesys', 'LOGGED OUT'),
+(3, 'hr', 'hr@vervesys', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `presurvey`
+--
+
+CREATE TABLE `presurvey` (
+  `userId` int(11) NOT NULL,
+  `Communication` longtext NOT NULL,
+  `Adaptability` longtext NOT NULL,
+  `Emotional_Intelligence` longtext NOT NULL,
+  `Interpersonal_Skills` longtext NOT NULL,
+  `Work_Ethics` longtext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `presurvey`
+--
+
+INSERT INTO `presurvey` (`userId`, `Communication`, `Adaptability`, `Emotional_Intelligence`, `Interpersonal_Skills`, `Work_Ethics`) VALUES
+(1, 'Exceelent', 'Good', 'Outstanding', 'Marvelous', 'OK');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sectionScores`
+--
+
+CREATE TABLE `sectionScores` (
+  `userId` int(11) NOT NULL,
+  `Communication` int(11) NOT NULL,
+  `Adaptability` int(11) NOT NULL,
+  `Emotional_Intelligence` int(11) NOT NULL,
+  `Interpersonal_Skills` int(11) NOT NULL,
+  `Work_Ethics` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `sectionScores`
+--
+
+INSERT INTO `sectionScores` (`userId`, `Communication`, `Adaptability`, `Emotional_Intelligence`, `Interpersonal_Skills`, `Work_Ethics`) VALUES
+(1, 100, 100, 100, 100, 100),
+(2, 100, 100, 100, 100, 100);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `subSectionScores`
+--
+
+CREATE TABLE `subSectionScores` (
+  `userId` int(11) NOT NULL,
+  `Verbal` int(11) NOT NULL,
+  `Written` int(11) NOT NULL,
+  `Verbal_Written` int(11) NOT NULL,
+  `Presentation` int(11) NOT NULL,
+  `Adaptability` int(11) NOT NULL,
+  `Stress` int(11) NOT NULL,
+  `Self_Awareness` int(11) NOT NULL,
+  `Social_Skills` int(11) NOT NULL,
+  `Motivation` int(11) NOT NULL,
+  `Empathy` int(11) NOT NULL,
+  `Workplace_Attire` int(11) NOT NULL,
+  `Workplace_Ettiquette` int(11) NOT NULL,
+  `Initiative` int(11) NOT NULL,
+  `Accountability` int(11) NOT NULL,
+  `Trustworthiness` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `subSectionScores`
+--
+
+INSERT INTO `subSectionScores` (`userId`, `Verbal`, `Written`, `Verbal_Written`, `Presentation`, `Adaptability`, `Stress`, `Self_Awareness`, `Social_Skills`, `Motivation`, `Empathy`, `Workplace_Attire`, `Workplace_Ettiquette`, `Initiative`, `Accountability`, `Trustworthiness`) VALUES
+(1, 18, 30, 30, 15, 65, 35, 30, 25, 25, 20, 65, 35, 30, 35, 35),
+(2, 25, 30, 30, 15, 65, 35, 30, 25, 25, 20, 65, 35, 30, 35, 35);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `userId` int(11) NOT NULL,
+  `email` text NOT NULL,
+  `password` text NOT NULL,
+  `token` text NOT NULL,
+  `score` int(11) NOT NULL,
+  `test_taken` tinyint(1) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`userId`, `email`, `password`, `token`, `score`, `test_taken`) VALUES
+(1, 'aman', 'global', 'LOGGED OUT', 500, 1),
+(2, 'test2', 'testers', 'LOGGED OUT', 500, 0),
+(3, 'testers2@test.com', 'test', '', 0, 0),
+(4, 'testers3@test.com', 'test', '', 0, 0);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`userId`);
+
+--
+-- Indexes for table `presurvey`
+--
+ALTER TABLE `presurvey`
+  ADD PRIMARY KEY (`userId`);
+
+--
+-- Indexes for table `sectionScores`
+--
+ALTER TABLE `sectionScores`
+  ADD PRIMARY KEY (`userId`);
+
+--
+-- Indexes for table `subSectionScores`
+--
+ALTER TABLE `subSectionScores`
+  ADD PRIMARY KEY (`userId`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`userId`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
